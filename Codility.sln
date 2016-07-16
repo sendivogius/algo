@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Codility", "Codility\Codility.vcxproj", "{F1BD379A-45C1-4B9B-88CF-EC22B3DE3114}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodilityUnitTest", "CodilityUnitTest\CodilityUnitTest.vcxproj", "{8276B5B9-F50C-41A2-AFC1-0CA1FEFF0B39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1BD379A-45C1-4B9B-88CF-EC22B3DE3114}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1BD379A-45C1-4B9B-88CF-EC22B3DE3114}.Debug|Win32.Build.0 = Debug|Win32
+		{F1BD379A-45C1-4B9B-88CF-EC22B3DE3114}.Release|Win32.ActiveCfg = Release|Win32
+		{F1BD379A-45C1-4B9B-88CF-EC22B3DE3114}.Release|Win32.Build.0 = Release|Win32
+		{8276B5B9-F50C-41A2-AFC1-0CA1FEFF0B39}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8276B5B9-F50C-41A2-AFC1-0CA1FEFF0B39}.Debug|Win32.Build.0 = Debug|Win32
+		{8276B5B9-F50C-41A2-AFC1-0CA1FEFF0B39}.Release|Win32.ActiveCfg = Release|Win32
+		{8276B5B9-F50C-41A2-AFC1-0CA1FEFF0B39}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
