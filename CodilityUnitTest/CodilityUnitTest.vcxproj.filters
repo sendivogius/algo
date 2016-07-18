@@ -29,5 +29,8 @@
     <ClCompile Include="T1_BinaryGap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="T2_Arrays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

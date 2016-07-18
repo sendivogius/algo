@@ -4,16 +4,25 @@
     <Filter Include="L1_Iterations">
       <UniqueIdentifier>{edd64f89-2a57-44c6-ba8b-3c84293fa9cb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="L2_Arrays">
+      <UniqueIdentifier>{c777167e-4bf9-4507-be3a-88fe10235653}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="L1_BinaryGap.cpp">
       <Filter>L1_Iterations</Filter>
     </ClCompile>
+    <ClCompile Include="L2_CyclicRotation.cpp">
+      <Filter>L2_Arrays</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="L1_BinaryGap.h">
       <Filter>L1_Iterations</Filter>
+    </ClInclude>
+    <ClInclude Include="L2_CyclicRotation.h">
+      <Filter>L2_Arrays</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

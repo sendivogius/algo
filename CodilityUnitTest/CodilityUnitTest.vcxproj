@@ -91,6 +91,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="T1_BinaryGap.cpp" />
+    <ClCompile Include="T2_Arrays.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Codility\Codility.vcxproj">
