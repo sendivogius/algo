@@ -16,12 +16,18 @@
     <ClCompile Include="L2_CyclicRotation.cpp">
       <Filter>L2_Arrays</Filter>
     </ClCompile>
+    <ClCompile Include="L2_OddOccurenciesInArray.cpp">
+      <Filter>L2_Arrays</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="L1_BinaryGap.h">
       <Filter>L1_Iterations</Filter>
     </ClInclude>
     <ClInclude Include="L2_CyclicRotation.h">
+      <Filter>L2_Arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="L2_OddOccurenciesInArray.h">
       <Filter>L2_Arrays</Filter>
     </ClInclude>
   </ItemGroup>
