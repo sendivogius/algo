@@ -7,6 +7,9 @@
     <Filter Include="L2_Arrays">
       <UniqueIdentifier>{c777167e-4bf9-4507-be3a-88fe10235653}</UniqueIdentifier>
     </Filter>
+    <Filter Include="L3_TimeCmplexity">
+      <UniqueIdentifier>{76b9d352-5651-47ba-9b90-1d74c835b478}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -19,6 +22,9 @@
     <ClCompile Include="L2_OddOccurenciesInArray.cpp">
       <Filter>L2_Arrays</Filter>
     </ClCompile>
+    <ClCompile Include="L3_TapeEqulibrium.cpp">
+      <Filter>L3_TimeCmplexity</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="L1_BinaryGap.h">
@@ -29,6 +35,9 @@
     </ClInclude>
     <ClInclude Include="L2_OddOccurenciesInArray.h">
       <Filter>L2_Arrays</Filter>
+    </ClInclude>
+    <ClInclude Include="L3_TapeEqulibrium.h">
+      <Filter>L3_TimeCmplexity</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

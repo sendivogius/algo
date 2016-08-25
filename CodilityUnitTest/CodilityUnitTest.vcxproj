@@ -92,6 +92,7 @@
     </ClCompile>
     <ClCompile Include="T1_BinaryGap.cpp" />
     <ClCompile Include="T2_Arrays.cpp" />
+    <ClCompile Include="T3_TapeEqulibrium.cpp" />
     <ClCompile Include="T2_OddOccurenciesInArray.cpp" />
   </ItemGroup>
   <ItemGroup>

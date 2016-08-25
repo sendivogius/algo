@@ -35,5 +35,8 @@
     <ClCompile Include="T2_OddOccurenciesInArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="T3_TapeEqulibrium.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
