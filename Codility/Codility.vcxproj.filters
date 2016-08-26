@@ -25,6 +25,9 @@
     <ClCompile Include="L3_TapeEqulibrium.cpp">
       <Filter>L3_TimeCmplexity</Filter>
     </ClCompile>
+    <ClCompile Include="L3_FrogJmp.cpp">
+      <Filter>L3_TimeCmplexity</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="L1_BinaryGap.h">
@@ -37,6 +40,9 @@
       <Filter>L2_Arrays</Filter>
     </ClInclude>
     <ClInclude Include="L3_TapeEqulibrium.h">
+      <Filter>L3_TimeCmplexity</Filter>
+    </ClInclude>
+    <ClInclude Include="L3_FrogJmp.h">
       <Filter>L3_TimeCmplexity</Filter>
     </ClInclude>
   </ItemGroup>
