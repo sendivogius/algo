@@ -82,6 +82,7 @@
     <ClCompile Include="L3_PermMissingElem.cpp" />
     <ClCompile Include="L3_TapeEqulibrium.cpp" />
     <ClCompile Include="L2_OddOccurenciesInArray.cpp" />
+    <ClCompile Include="L4_PermCheck.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +92,7 @@
     <ClInclude Include="L3_PermMissingElem.h" />
     <ClInclude Include="L3_TapeEqulibrium.h" />
     <ClInclude Include="L2_OddOccurenciesInArray.h" />
+    <ClInclude Include="L4_PermCheck.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -10,6 +10,9 @@
     <Filter Include="L3_TimeCmplexity">
       <UniqueIdentifier>{76b9d352-5651-47ba-9b90-1d74c835b478}</UniqueIdentifier>
     </Filter>
+    <Filter Include="L4_CountingElements">
+      <UniqueIdentifier>{914e54a2-3bd6-4df2-afff-93ad4bd5dff2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -31,6 +34,9 @@
     <ClCompile Include="L3_PermMissingElem.cpp">
       <Filter>L3_TimeCmplexity</Filter>
     </ClCompile>
+    <ClCompile Include="L4_PermCheck.cpp">
+      <Filter>L4_CountingElements</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="L1_BinaryGap.h">
@@ -50,6 +56,9 @@
     </ClInclude>
     <ClInclude Include="L3_PermMissingElem.h">
       <Filter>L3_TimeCmplexity</Filter>
+    </ClInclude>
+    <ClInclude Include="L4_PermCheck.h">
+      <Filter>L4_CountingElements</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

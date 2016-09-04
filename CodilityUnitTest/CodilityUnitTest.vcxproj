@@ -96,6 +96,7 @@
     <ClCompile Include="T3_PermMissingElem.cpp" />
     <ClCompile Include="T3_TapeEqulibrium.cpp" />
     <ClCompile Include="T2_OddOccurenciesInArray.cpp" />
+    <ClCompile Include="T4_PermCheck.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Codility\Codility.vcxproj">
