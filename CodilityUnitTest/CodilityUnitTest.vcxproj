@@ -93,6 +93,7 @@
     <ClCompile Include="T1_BinaryGap.cpp" />
     <ClCompile Include="T2_Arrays.cpp" />
     <ClCompile Include="T3_FrgJmp.cpp" />
+    <ClCompile Include="T3_PermMissingElem.cpp" />
     <ClCompile Include="T3_TapeEqulibrium.cpp" />
     <ClCompile Include="T2_OddOccurenciesInArray.cpp" />
   </ItemGroup>

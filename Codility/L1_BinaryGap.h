@@ -1,4 +1,4 @@
-namespace L1_Iterations
+namespace L1_BinaryGap
 {
 	int solution(int N);
 }

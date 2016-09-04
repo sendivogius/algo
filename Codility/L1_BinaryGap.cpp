@@ -1,6 +1,6 @@
 #include "L1_BinaryGap.h"
 
-int L1_Iterations::solution(int N)
+int L1_BinaryGap::solution(int N)
 {
 	size_t longest = 0, current = 0;
 	while((N & 1) == 0 && N != 0)

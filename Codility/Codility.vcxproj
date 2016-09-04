@@ -79,6 +79,7 @@
     <ClCompile Include="L1_BinaryGap.cpp" />
     <ClCompile Include="L2_CyclicRotation.cpp" />
     <ClCompile Include="L3_FrogJmp.cpp" />
+    <ClCompile Include="L3_PermMissingElem.cpp" />
     <ClCompile Include="L3_TapeEqulibrium.cpp" />
     <ClCompile Include="L2_OddOccurenciesInArray.cpp" />
     <ClCompile Include="main.cpp" />
@@ -87,6 +88,7 @@
     <ClInclude Include="L1_BinaryGap.h" />
     <ClInclude Include="L2_CyclicRotation.h" />
     <ClInclude Include="L3_FrogJmp.h" />
+    <ClInclude Include="L3_PermMissingElem.h" />
     <ClInclude Include="L3_TapeEqulibrium.h" />
     <ClInclude Include="L2_OddOccurenciesInArray.h" />
   </ItemGroup>
