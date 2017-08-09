@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -22,15 +23,35 @@ public:
 
 //todo different graph representtions adjmatrix, edges list, adj list
 class Graph: public IGraph{
-
-	//sth to hold data
+	typedef vector<int> intvec;
+	vector<intvec> nodes;
 public:
 	int nodesCount() {return 0;}
-	int edgesCount() {return 0;}
-	void addNode(int n) {}
-	void addEdge(int from, int to) {}
+	int edgesCount() {return nodes.size();}
+	void addNode(int n)
+	{
+	}
 
-	Graph(int nodes, int edges) {}
+	void addEdge(int from, int to)
+	{
+		nodes[from].push_back(to);
+		nodes[to].push_back(from);
+	}
+	
+	Graph(int nodes, int edges){
+		this->nodes.resize(nodes);
+	}
+
+	void print() const
+	{
+		for(int i = 0; i < nodes.size(); i++)
+		{
+			cout << i+1 << " -> [";
+			for(int j = 0; j < nodes[i].size(); j++)
+				cout << nodes[i][j]+1 << " ";
+			cout << "]\n";
+		}
+	}
 };
 
 
@@ -47,10 +68,20 @@ int main(){
 		while(m--){
 			int a, b;
 			cin >> a >> b;
-			g.addEdge(a,b);
+			g.addEdge(a-1,b-1);
+		}
+			
+		g.print();
+		long mincost = 0;
+		if(clib < croad)
+			mincost = n*clib;
+		else
+		{
+
+			//num of connected components * clib + sum(nodes in compnent -1   * croad)
 		}
 
-
 	}
-
+	cin >> q;
+	
 }
