@@ -128,7 +128,7 @@ int main(){
 			mincost = n*clib;
 		else
 		{
-			auto compartments= getCompartments(g);
+			auto compartments = getCompartments(g);
 			auto compNum = compartments.size();
 			mincost = compNum * clib;
 			for(auto& com: compartments){
