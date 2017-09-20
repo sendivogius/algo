@@ -1,37 +1,24 @@
-#include <map>
-#include <set>
-#include <list>
-#include <cmath>
-#include <ctime>
-#include <deque>
-#include <queue>
-#include <stack>
-#include <string>
-#include <bitset>
-#include <cstdio>
-#include <limits>
-#include <vector>
-#include <climits>
-#include <cstring>
-#include <cstdlib>
-#include <fstream>
-#include <numeric>
-#include <sstream>
 #include <iostream>
-#include <algorithm>
-#include <unordered_map>
-
+#include <string>
 using namespace std;
 
 //https://www.hackerrank.com/challenges/mars-exploration
 
-int main(){
-    string S;
-    cin >> S;
-    int diff = 0;
-    for(int i = 0; i < S.size(); i++){
+
+size_t sos_diff(const string& S)
+{
+	size_t diff = 0;
+    for(auto i = 0; i < S.size(); i++){
         diff += ("SOS"[i%3] != S[i]);
     }
-    cout << diff;
-    return 0;
+    return diff;
 }
+
+
+//int main(){
+//    string S;
+//    cin >> S;
+//    cout << sos_diff(S);
+//    return 0;
+//}
+

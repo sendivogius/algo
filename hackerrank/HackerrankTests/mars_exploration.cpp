@@ -1,37 +1,25 @@
-#include <map>
-#include <set>
-#include <list>
-#include <cmath>
-#include <ctime>
-#include <deque>
-#include <queue>
-#include <stack>
-#include <string>
-#include <bitset>
-#include <cstdio>
-#include <limits>
-#include <vector>
-#include <climits>
-#include <cstring>
-#include <cstdlib>
-#include <fstream>
-#include <numeric>
-#include <sstream>
-#include <iostream>
-#include <algorithm>
-#include <unordered_map>
+#include "stdafx.h"
+#include "CppUnitTest.h"
+#include "..\Hackerrank\mars_exploration.cpp"
 
-using namespace std;
+using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
-//https://www.hackerrank.com/challenges/mars-exploration
+namespace HackerrankTests
+{		
+	TEST_CLASS(MarsExploration)
+	{
+	public:
+		
+		TEST_METHOD(SampleTest1)
+		{
+			const auto result = sos_diff("SOSSPSSQSSOR");
+			Assert::IsTrue(3 == result);
+		}
 
-int main(){
-    string S;
-    cin >> S;
-    int diff = 0;
-    for(int i = 0; i < S.size(); i++){
-        diff += ("SOS"[i%3] != S[i]);
-    }
-    cout << diff;
-    return 0;
+		TEST_METHOD(SampleTest2)
+		{
+			const auto result = sos_diff("SOSSOT");
+			Assert::IsTrue(1 == result);
+		}
+	};
 }
