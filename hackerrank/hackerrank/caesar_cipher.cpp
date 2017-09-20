@@ -19,15 +19,15 @@ string cipher(const string& s, int k)
 }
 
 
-int main(){
-    int n;
-    cin >> n;
-    string s;
-    cin >> s;
-    int k;
-    cin >> k;
-
-	cout << cipher(s, k);
-    return 0;
-}
-
+//int main(){
+//    int n;
+//    cin >> n;
+//    string s;
+//    cin >> s;
+//    int k;
+//    cin >> k;
+//
+//	cout << cipher(s, k);
+//    return 0;
+//}
+//
