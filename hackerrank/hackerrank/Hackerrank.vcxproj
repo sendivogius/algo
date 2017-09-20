@@ -64,6 +64,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\HackerrankTests\mars_exploration.cpp" />
+    <ClCompile Include="BFS_shortest_reach.cpp" />
+    <ClCompile Include="caesar_cipher.cpp" />
+    <ClCompile Include="really_special_subtree.cpp" />
     <ClCompile Include="road_and_libraries.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
