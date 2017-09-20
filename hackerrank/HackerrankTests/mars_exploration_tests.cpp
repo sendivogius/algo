@@ -10,13 +10,13 @@ namespace HackerrankTests
 	{
 	public:
 		
-		TEST_METHOD(SampleTest1)
+		TEST_METHOD(MarsExplorationTest1)
 		{
 			const auto result = sos_diff("SOSSPSSQSSOR");
 			Assert::IsTrue(3 == result);
 		}
 
-		TEST_METHOD(SampleTest2)
+		TEST_METHOD(MarsExplorationTest2)
 		{
 			const auto result = sos_diff("SOSSOT");
 			Assert::IsTrue(1 == result);

@@ -1,12 +1,23 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
 #include <iostream>
-#include <algorithm>
 #include <string>
 using namespace std;
 
 // https://www.hackerrank.com/challenges/caesar-cipher-1
+
+
+string cipher(const string& s, int k)
+{
+	string out(s);
+	for(auto i = 0; i < s.length(); i++){
+		char c = s[i];
+		if(c >= 'a' && c <= 'z')
+			out[i] = char(((c-'a')+k)%('z'-'a'+1)+'a');
+		else if(c >= 'A' && c <= 'Z')
+			out[i] =  char(((c-'A')+k)%('Z'-'A'+1)+'A');
+    }
+	return out;
+}
+
 
 int main(){
     int n;
@@ -15,14 +26,8 @@ int main(){
     cin >> s;
     int k;
     cin >> k;
-    for(auto c : s){
-        if(c >= 'a' && c <= 'z')
-            cout << char(((c-'a')+k)%('z'-'a'+1)+'a');
-        else if(c >= 'A' && c <= 'Z')
-            cout << char(((c-'A')+k)%('Z'-'A'+1)+'A');
-        else
-            cout << c;
-    }
+
+	cout << cipher(s, k);
     return 0;
 }
 
