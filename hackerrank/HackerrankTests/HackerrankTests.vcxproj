@@ -86,6 +86,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="breaking_the_records_tests.cpp" />
     <ClCompile Include="caesar_cipher_tests.cpp" />
     <ClCompile Include="GraphsTests.cpp" />
     <ClCompile Include="stdafx.cpp">

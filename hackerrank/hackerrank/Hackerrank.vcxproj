@@ -65,6 +65,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BFS_shortest_reach.cpp" />
+    <ClCompile Include="breaking_the_records.cpp" />
     <ClCompile Include="caesar_cipher.cpp" />
     <ClCompile Include="Graphs.cpp" />
     <ClCompile Include="mars_exploration.cpp" />
