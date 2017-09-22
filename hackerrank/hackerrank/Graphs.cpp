@@ -10,7 +10,7 @@ using namespace std;
 //todo different graph representtions adjmatrix, edges list, adj list
 
 
-vector<int> NodeBFS(const Graph& g, int node)
+vector<int> NodeBFS(const AdjListGraph& g, int node)
 {
 	vector<int> visited(g.nodesCount(), -1);
 	queue<pair<int,int> > q;
@@ -35,11 +35,11 @@ vector<int> NodeBFS(const Graph& g, int node)
 	return visited;
 }
 
-Graph fromStream(istream& stream)
+AdjListGraph fromStream(istream& stream)
 {
 	int nodes, edges;
 	stream >> nodes >> edges;
-	Graph g(nodes);
+	AdjListGraph g(nodes);
 	while (edges--){
 		int from, to;
 		cin >> from >> to;
@@ -48,14 +48,14 @@ Graph fromStream(istream& stream)
 	return g;
 }
 
-Graph fromCin()
+AdjListGraph fromCin()
 {
 	return fromStream(cin);
 }
 
-Graph fromFile(const string& filename)
+AdjListGraph fromFile(const string& filename)
 {
 	return fromStream(ifstream(filename));
 }
 
-Graph fromStream(istream& stream);
+AdjListGraph fromStream(istream& stream);

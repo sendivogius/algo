@@ -1,5 +1,5 @@
 #pragma once
-
+#include <numeric>
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -10,16 +10,22 @@ using namespace std;
 
 class IGraph{
 public:
-	virtual int nodesCount() const = 0;
-	virtual int edgesCount() = 0;
+	virtual size_t nodesCount() const = 0;
+	virtual size_t edgesCount() = 0;
 };
 
-class Graph : public IGraph{
+class AdjListGraph : public IGraph{
+	//for each node we keep list of neighbourings ids
+	//for now there is no possibility to add weight for edges
 	typedef vector<int> intvec;
 	vector<intvec> nodes;
 public:
-	int nodesCount() const { return nodes.size(); }
-	int edgesCount() { return 0; }
+	size_t nodesCount() const { return nodes.size(); }
+	size_t edgesCount() { 
+		auto lambda = [&](int a, intvec b){return a + b.size(); };
+		int total_edges = std::accumulate(nodes.begin(), nodes.end(), 0, lambda);
+		return total_edges/2; 
+	}
 
 	void addEdge(int from, int to)
 	{
@@ -27,7 +33,7 @@ public:
 		nodes[to].push_back(from);
 	}
 
-	Graph(int nodes){
+	AdjListGraph(int nodes = 1){
 		this->nodes.resize(nodes);
 	}
 
@@ -48,9 +54,9 @@ public:
 };
 
 
-vector<int> NodeBFS(const Graph& g, int node);
+vector<int> NodeBFS(const IGraph& g, int node);
 
-Graph fromCin();
-Graph fromFile();
+AdjListGraph fromCin();
+AdjListGraph fromFile();
 
-Graph fromStream(istream& stream);
+AdjListGraph fromStream(istream& stream);
