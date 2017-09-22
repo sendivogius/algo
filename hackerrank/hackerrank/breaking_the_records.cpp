@@ -23,15 +23,15 @@ pair<int, int> getRecord(vector <int> scores){
     return make_pair(max_cnt, min_cnt);
 }
 
-int main() {
-    int n;
-    cin >> n;
-    vector<int> s(n);
-    for(int s_i = 0; s_i < n; s_i++){
-       cin >> s[s_i];
-    }
-    auto result = getRecord(s);
-	cout << result.first << " " << result.second << endl;
-    return 0;
-}
+//int main() {
+//    int n;
+//    cin >> n;
+//    vector<int> s(n);
+//    for(int s_i = 0; s_i < n; s_i++){
+//       cin >> s[s_i];
+//    }
+//    auto result = getRecord(s);
+//	cout << result.first << " " << result.second << endl;
+//    return 0;
+//}
 

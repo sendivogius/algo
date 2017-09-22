@@ -36,6 +36,9 @@
     <ClCompile Include="breaking_the_records.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="birthday_chocolate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">

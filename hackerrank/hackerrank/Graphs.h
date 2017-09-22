@@ -12,9 +12,6 @@ class IGraph{
 public:
 	virtual int nodesCount() const = 0;
 	virtual int edgesCount() = 0;
-	virtual void addNode(int n) = 0;
-	virtual void addEdge(int from, int to) = 0;
-
 };
 
 class Graph : public IGraph{
@@ -23,9 +20,6 @@ class Graph : public IGraph{
 public:
 	int nodesCount() const { return nodes.size(); }
 	int edgesCount() { return 0; }
-	void addNode(int n)
-	{
-	}
 
 	void addEdge(int from, int to)
 	{
@@ -33,7 +27,7 @@ public:
 		nodes[to].push_back(from);
 	}
 
-	Graph(int nodes, int edges){
+	Graph(int nodes){
 		this->nodes.resize(nodes);
 	}
 
@@ -55,4 +49,8 @@ public:
 
 
 vector<int> NodeBFS(const Graph& g, int node);
+
+Graph fromCin();
+Graph fromFile();
+
 Graph fromStream(istream& stream);

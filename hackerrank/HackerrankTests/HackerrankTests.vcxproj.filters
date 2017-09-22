@@ -38,5 +38,8 @@
     <ClCompile Include="breaking_the_records_tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="birthday_chocolate_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

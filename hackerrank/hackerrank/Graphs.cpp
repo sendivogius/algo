@@ -1,4 +1,5 @@
 #include "Graphs.h"
+#include <fstream>
 using namespace std;
 
 //todo extract graphs representation and algorithms
@@ -38,7 +39,7 @@ Graph fromStream(istream& stream)
 {
 	int nodes, edges;
 	stream >> nodes >> edges;
-	Graph g(nodes, edges);
+	Graph g(nodes);
 	while (edges--){
 		int from, to;
 		cin >> from >> to;
@@ -46,3 +47,15 @@ Graph fromStream(istream& stream)
 	}
 	return g;
 }
+
+Graph fromCin()
+{
+	return fromStream(cin);
+}
+
+Graph fromFile(const string& filename)
+{
+	return fromStream(ifstream(filename));
+}
+
+Graph fromStream(istream& stream);

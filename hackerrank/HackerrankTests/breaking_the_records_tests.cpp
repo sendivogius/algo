@@ -9,7 +9,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace HackerrankTests
 {		
-	TEST_CLASS(BreakingTheRecordsTests)
+	TEST_CLASS(BreakingTheRecords)
 	{
 	public:
 		
