@@ -39,9 +39,21 @@
     <ClCompile Include="birthday_chocolate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="between_two_sets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="math_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="between_two_sets.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
