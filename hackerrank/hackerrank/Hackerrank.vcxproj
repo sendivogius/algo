@@ -69,6 +69,7 @@
     <ClCompile Include="birthday_chocolate.cpp" />
     <ClCompile Include="breaking_the_records.cpp" />
     <ClCompile Include="caesar_cipher.cpp" />
+    <ClCompile Include="organizing_containers_of_balls.cpp" />
     <ClCompile Include="Graphs.cpp" />
     <ClCompile Include="mars_exploration.cpp" />
     <ClCompile Include="math_utils.cpp" />

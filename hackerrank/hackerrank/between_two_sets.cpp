@@ -35,17 +35,17 @@ int getTotalX(const vector<int>& a, const vector<int>& b) {
 	return cnt;
 }
 
-int main() {
-    int n, m;
-    cin >> n >> m;
-    vector<int> a(n);
-    for(int a_i = 0; a_i < n; a_i++){
-       cin >> a[a_i];
-    }
-    vector<int> b(m);
-    for(int b_i = 0; b_i < m; b_i++){
-       cin >> b[b_i];
-    }
-    cout << getTotalX(a, b) << endl;
-    return 0;
-}
+//int main() {
+//    int n, m;
+//    cin >> n >> m;
+//    vector<int> a(n);
+//    for(int a_i = 0; a_i < n; a_i++){
+//       cin >> a[a_i];
+//    }
+//    vector<int> b(m);
+//    for(int b_i = 0; b_i < m; b_i++){
+//       cin >> b[b_i];
+//    }
+//    cout << getTotalX(a, b) << endl;
+//    return 0;
+//}
