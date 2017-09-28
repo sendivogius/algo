@@ -48,6 +48,9 @@
     <ClCompile Include="organizing_containers_of_balls.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="migratory_birds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">

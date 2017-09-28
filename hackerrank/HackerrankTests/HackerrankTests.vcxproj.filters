@@ -47,5 +47,8 @@
     <ClCompile Include="organizing_containers_of_balls_tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="migratory_birds_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
