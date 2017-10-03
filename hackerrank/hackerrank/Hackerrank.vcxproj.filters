@@ -51,6 +51,9 @@
     <ClCompile Include="migratory_birds.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="counter_game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">

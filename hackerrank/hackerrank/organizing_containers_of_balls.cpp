@@ -27,25 +27,24 @@ bool check_balls(const vector<vector<int>>& M){
 }
 
 
-
-int main(){
-    int q;
-    cin >> q;
-    while(q--){
-        int n;
-        cin >> n;
-        vector< vector<int> > M(n,vector<int>(n));
-        for(int M_i = 0;M_i < n;M_i++){
-           for(int M_j = 0;M_j < n;M_j++){
-              cin >> M[M_i][M_j];
-           }
-        }
-		if(check_balls(M))
-			cout << "POSSIBLE\n";
-		else
-			cout << "IMPOSSIBLE\n";
-    }
-    return 0;
-}
-
-
+//
+//int main(){
+//    int q;
+//    cin >> q;
+//    while(q--){
+//        int n;
+//        cin >> n;
+//        vector< vector<int> > M(n,vector<int>(n));
+//        for(int M_i = 0;M_i < n;M_i++){
+//           for(int M_j = 0;M_j < n;M_j++){
+//              cin >> M[M_i][M_j];
+//           }
+//        }
+//		if(check_balls(M))
+//			cout << "POSSIBLE\n";
+//		else
+//			cout << "IMPOSSIBLE\n";
+//    }
+//    return 0;
+//}
+//
