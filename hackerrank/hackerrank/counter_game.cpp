@@ -29,13 +29,13 @@ bool counter(unsigned long long n){
 	return result;
 }
 
-int main() {
-    int t;
-	cin >> t;
-	while(t--){
-		unsigned long long n;
-		cin >> n;
-		cout << (counter(n) ? "Richard" : "Louise") << endl;
-	}
-    return 0;
-}
+//int main() {
+//    int t;
+//	cin >> t;
+//	while(t--){
+//		unsigned long long n;
+//		cin >> n;
+//		cout << (counter(n) ? "Richard" : "Louise") << endl;
+//	}
+//    return 0;
+//}
