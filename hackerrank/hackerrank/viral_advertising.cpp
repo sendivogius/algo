@@ -18,10 +18,10 @@ unsigned int getTotalAdverts(int n){
 	}
 	return tot;
 }
-
-int main() {
-	int n;
-	cin >> n;
-	cout << getTotalAdverts(n) << endl;
-	
-}
+//
+//int main() {
+//	int n;
+//	cin >> n;
+//	cout << getTotalAdverts(n) << endl;
+//	
+//}
