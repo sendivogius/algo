@@ -14,17 +14,17 @@ vector<int> rotate(const vector<int>& v, int d){
 	return rotated;
 }
 
-int main() {
-    int n, d;
-	cin >> n >> d;
-	vector<int> v(n);
-	for(int i = 0; i < n; i++)
-		cin >> v[i];
-	
-	auto rotated = rotate(v, d);
-	for(auto e : rotated)
-		cout << e << " ";
-	cout << endl;
-	
-    return 0;
-}
+//int main() {
+//    int n, d;
+//	cin >> n >> d;
+//	vector<int> v(n);
+//	for(int i = 0; i < n; i++)
+//		cin >> v[i];
+//	
+//	auto rotated = rotate(v, d);
+//	for(auto e : rotated)
+//		cout << e << " ";
+//	cout << endl;
+//	
+//    return 0;
+//}
