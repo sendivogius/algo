@@ -80,6 +80,7 @@
     <ClCompile Include="math_utils.cpp" />
     <ClCompile Include="really_special_subtree.cpp" />
     <ClCompile Include="road_and_libraries.cpp" />
+    <ClCompile Include="the_time_in_words.cpp" />
     <ClCompile Include="viral_advertising.cpp" />
   </ItemGroup>
   <ItemGroup>
