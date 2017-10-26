@@ -68,5 +68,8 @@
     <ClCompile Include="the_time_in_words_tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="day_of_the_programmer_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -92,6 +92,7 @@
     <ClCompile Include="breaking_the_records_tests.cpp" />
     <ClCompile Include="caesar_cipher_tests.cpp" />
     <ClCompile Include="counter_game_tests.cpp" />
+    <ClCompile Include="day_of_the_programmer_tests.cpp" />
     <ClCompile Include="encryption_tests.cpp" />
     <ClCompile Include="GraphsTests.cpp" />
     <ClCompile Include="matrix_layer_rotation_tests.cpp" />

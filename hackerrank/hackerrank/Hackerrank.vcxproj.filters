@@ -69,6 +69,9 @@
     <ClCompile Include="the_time_in_words.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="day_of_the_programmer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">
