@@ -65,6 +65,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="array_left_rotation.cpp" />
+    <ClCompile Include="attacking_queen_2.cpp" />
     <ClCompile Include="between_two_sets.cpp" />
     <ClCompile Include="BFS_shortest_reach.cpp" />
     <ClCompile Include="birthday_chocolate.cpp" />

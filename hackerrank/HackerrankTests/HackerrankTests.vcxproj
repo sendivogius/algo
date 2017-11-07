@@ -87,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="array_left_rotation_tests.cpp" />
+    <ClCompile Include="attacking_queen_2_tests.cpp" />
     <ClCompile Include="between_two_tests.cpp" />
     <ClCompile Include="birthday_chocolate_tests.cpp" />
     <ClCompile Include="breaking_the_records_tests.cpp" />

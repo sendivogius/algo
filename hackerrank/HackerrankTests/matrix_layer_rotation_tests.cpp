@@ -132,7 +132,7 @@ namespace HackerrankTests
 			const vector<int> input( tmp, tmp+(sizeof(tmp)/sizeof(tmp[0])));
 			const vector<int> out = layerRotate(input, 5, 4, 7);
 
-			int expected_tmp[] = {28,27,26,25,22,9,15,19,16,8,21,13,10,14,20,7,4,3,2,1};
+			int expected_tmp[] = {20,19,18,17,16,7,11,13,12,6,15,9,8,10,14,5,4,3,2,1};
 			const vector<int> expected( expected_tmp, expected_tmp+(sizeof(expected_tmp)/sizeof(expected_tmp[0])));
 			
 			Assert::IsTrue(out == expected);

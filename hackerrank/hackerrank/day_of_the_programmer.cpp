@@ -18,12 +18,12 @@ string dayOfProgrammer(int year)
 	return s;
 }
 
-
-int main(){
-    int year;
-    cin >> year;
-
-	cout << dayOfProgrammer(year);
-    return 0;
-}
-
+//
+//int main(){
+//    int year;
+//    cin >> year;
+//
+//	cout << dayOfProgrammer(year);
+//    return 0;
+//}
+//

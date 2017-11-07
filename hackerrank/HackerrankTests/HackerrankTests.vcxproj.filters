@@ -71,5 +71,8 @@
     <ClCompile Include="day_of_the_programmer_tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="attacking_queen_2_tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

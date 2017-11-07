@@ -72,6 +72,9 @@
     <ClCompile Include="day_of_the_programmer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="attacking_queen_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">
