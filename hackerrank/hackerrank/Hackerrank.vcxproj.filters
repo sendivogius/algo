@@ -78,6 +78,9 @@
     <ClCompile Include="max_min.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="counting_valleys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">

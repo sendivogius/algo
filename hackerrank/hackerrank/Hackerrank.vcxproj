@@ -72,6 +72,7 @@
     <ClCompile Include="breaking_the_records.cpp" />
     <ClCompile Include="caesar_cipher.cpp" />
     <ClCompile Include="counter_game.cpp" />
+    <ClCompile Include="counting_valleys.cpp" />
     <ClCompile Include="day_of_the_programmer.cpp" />
     <ClCompile Include="encryption.cpp" />
     <ClCompile Include="matrix_layer_rotation.cpp" />

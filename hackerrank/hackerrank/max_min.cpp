@@ -20,15 +20,15 @@ int solveMinMax(vector<int>& s, int k){
 	return min_uniformity;
 }
 
-int main() {
-    int n, k;
-    cin >> n >> k;
-    vector<int> s(n);
-    for(int s_i = 0; s_i < n; s_i++){
-       cin >> s[s_i];
-    }
-	cout << solveMinMax(s, k) << endl;
-    return 0;
-}
+//int main() {
+//    int n, k;
+//    cin >> n >> k;
+//    vector<int> s(n);
+//    for(int s_i = 0; s_i < n; s_i++){
+//       cin >> s[s_i];
+//    }
+//	cout << solveMinMax(s, k) << endl;
+//    return 0;
+//}
 
 
