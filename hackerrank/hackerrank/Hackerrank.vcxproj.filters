@@ -81,6 +81,9 @@
     <ClCompile Include="counting_valleys.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="dijkstra_shortest _reach.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">

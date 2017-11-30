@@ -74,6 +74,7 @@
     <ClCompile Include="counter_game.cpp" />
     <ClCompile Include="counting_valleys.cpp" />
     <ClCompile Include="day_of_the_programmer.cpp" />
+    <ClCompile Include="dijkstra_shortest _reach.cpp" />
     <ClCompile Include="encryption.cpp" />
     <ClCompile Include="matrix_layer_rotation.cpp" />
     <ClCompile Include="max_min.cpp" />

@@ -13,7 +13,7 @@ using namespace std;
 //	int queries;
 //	cin >> queries;
 //	while (queries--){
-//		Graph g = fromStream(cin);
+//		AdjListGraph g = fromStream(cin);
 //		
 //		int start;
 //		cin >> start;
