@@ -105,6 +105,7 @@
     </ClCompile>
     <ClCompile Include="mars_exploration_tests.cpp" />
     <ClCompile Include="the_time_in_words_tests.cpp" />
+    <ClCompile Include="utils_tests.cpp" />
     <ClCompile Include="viral_advertising_tests.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

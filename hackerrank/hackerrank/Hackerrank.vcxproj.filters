@@ -84,6 +84,9 @@
     <ClCompile Include="dijkstra_shortest _reach.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="subset_component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">
@@ -94,6 +97,9 @@
     </ClInclude>
     <ClInclude Include="between_two_sets.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.cpp">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
