@@ -90,6 +90,9 @@
     <ClCompile Include="electronic_shop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="taum_and_bday.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">

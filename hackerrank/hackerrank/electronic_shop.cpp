@@ -36,25 +36,24 @@ int calc_price(const set<int> & mices, const set<int> & keyboards, const int tot
 	return maxPrice;
 }
 
-int main()
-{
-	int n, m, s;
-	cin >> s >> n >> m;
-	set<int> keyboards;
-	while(n--){
-		int k;
-		cin >> k;
-		keyboards.insert(k);
-	}
-	set<int> mices;
-	while(m--){
-		int k;
-		cin >> k;
-		mices.insert(k);
-	}
-
-
-	cout << calc_price(mices, keyboards, s);
-	return 0;
-
-}
+//int main()
+//{
+//	int n, m, s;
+//	cin >> s >> n >> m;
+//	set<int> keyboards;
+//	while(n--){
+//		int k;
+//		cin >> k;
+//		keyboards.insert(k);
+//	}
+//	set<int> mices;
+//	while(m--){
+//		int k;
+//		cin >> k;
+//		mices.insert(k);
+//	}
+//
+//
+//	cout << calc_price(mices, keyboards, s);
+//	return 0;
+//}

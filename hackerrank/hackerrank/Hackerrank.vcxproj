@@ -87,6 +87,7 @@
     <ClCompile Include="really_special_subtree.cpp" />
     <ClCompile Include="road_and_libraries.cpp" />
     <ClCompile Include="subset_component.cpp" />
+    <ClCompile Include="taum_and_bday.cpp" />
     <ClCompile Include="the_time_in_words.cpp" />
     <ClCompile Include="viral_advertising.cpp" />
   </ItemGroup>
