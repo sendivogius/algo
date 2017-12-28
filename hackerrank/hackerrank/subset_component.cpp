@@ -48,27 +48,27 @@ vector<unsigned long long> createSubset(const vector<unsigned long long>& edges)
 
 
 //
-int main(){
-	int n;
-	cin >> n;
-	vector<unsigned long long> vec;
-	vec.reserve(n);
-	while(n--){
-		unsigned long long k;
-		cin >> k;
-			vec.push_back(k);
-	}
-	SubsetDivider<unsigned long long> s(vec);
-	unsigned long long h_tot = 0;
-	while(s.hasNext()){
-		auto c = s.getNext();
-		auto a = createSubset(c) ;
-		auto h = 64ul - std::accumulate(a.begin(), a.end(), 0UL, [](unsigned long long acc, unsigned long long s){return acc + numberOfNodes(s);});
-		h_tot += h;
-	}
-	    cout << h_tot << endl;
-    return 0;
-}
-
-
+//int main(){
+//	int n;
+//	cin >> n;
+//	vector<unsigned long long> vec;
+//	vec.reserve(n);
+//	while(n--){
+//		unsigned long long k;
+//		cin >> k;
+//			vec.push_back(k);
+//	}
+//	SubsetDivider<unsigned long long> s(vec);
+//	unsigned long long h_tot = 0;
+//	while(s.hasNext()){
+//		auto c = s.getNext();
+//		auto a = createSubset(c) ;
+//		auto h = 64ul - std::accumulate(a.begin(), a.end(), 0UL, [](unsigned long long acc, unsigned long long s){return acc + numberOfNodes(s);});
+//		h_tot += h;
+//	}
+//	    cout << h_tot << endl;
+//    return 0;
+//}
+//
+//
 

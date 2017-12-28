@@ -11,8 +11,19 @@ using namespace std;
 
 class IGraph{
 public:
-	virtual size_t nodesCount() const = 0;
-	virtual size_t edgesCount() = 0;
+	virtual size_t nodesCount() const {return 1;};
+	virtual size_t edgesCount() const {return 1;};
+	
+	virtual void addEdge(int from, int to, int weight = 1) {};
+};
+
+class MatrixGraph : public IGraph
+{
+	
+};
+
+class  EdgeListGraph : public IGraph
+{
 };
 
 class AdjListGraph : public IGraph{
