@@ -23,14 +23,14 @@ int pickNumber(const vector<int>& birds) {
 	return sum;
 }
 
-int main() {
-    int n;
-    cin >> n;
-    vector<int> ar(n);
-    for(int ar_i = 0; ar_i < n; ar_i++){
-       cin >> ar[ar_i];
-    }
-    int result = pickNumber(ar);
-    cout << result << endl;
-    return 0;
-}
+//int main() {
+//    int n;
+//    cin >> n;
+//    vector<int> ar(n);
+//    for(int ar_i = 0; ar_i < n; ar_i++){
+//       cin >> ar[ar_i];
+//    }
+//    int result = pickNumber(ar);
+//    cout << result << endl;
+//    return 0;
+//}
