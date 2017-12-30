@@ -93,6 +93,12 @@
     <ClCompile Include="taum_and_bday.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="save_the_prisoner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="picking-numbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">
