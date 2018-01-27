@@ -78,6 +78,7 @@
     <ClCompile Include="dijkstra_shortest _reach.cpp" />
     <ClCompile Include="electronic_shop.cpp" />
     <ClCompile Include="encryption.cpp" />
+    <ClCompile Include="game_of_stones.cpp" />
     <ClCompile Include="matrix_layer_rotation.cpp" />
     <ClCompile Include="max_min.cpp" />
     <ClCompile Include="migratory_birds.cpp" />

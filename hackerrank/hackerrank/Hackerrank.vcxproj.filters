@@ -105,6 +105,9 @@
     <ClCompile Include="permutation_equation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="game_of_stones.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">
