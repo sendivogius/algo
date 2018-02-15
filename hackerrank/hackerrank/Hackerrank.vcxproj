@@ -72,6 +72,7 @@
     <ClCompile Include="birthday_chocolate.cpp" />
     <ClCompile Include="breaking_the_records.cpp" />
     <ClCompile Include="caesar_cipher.cpp" />
+    <ClCompile Include="coin_change.cpp" />
     <ClCompile Include="counter_game.cpp" />
     <ClCompile Include="counting_valleys.cpp" />
     <ClCompile Include="day_of_the_programmer.cpp" />
@@ -89,6 +90,7 @@
     <ClCompile Include="permutation_equation.cpp" />
     <ClCompile Include="picking-numbers.cpp" />
     <ClCompile Include="really_special_subtree.cpp" />
+    <ClCompile Include="relay.cpp" />
     <ClCompile Include="road_and_libraries.cpp" />
     <ClCompile Include="save_the_prisoner.cpp" />
     <ClCompile Include="subset_component.cpp" />

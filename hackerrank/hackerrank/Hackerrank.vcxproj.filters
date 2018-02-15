@@ -108,6 +108,12 @@
     <ClCompile Include="game_of_stones.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="relay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coin_change.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">

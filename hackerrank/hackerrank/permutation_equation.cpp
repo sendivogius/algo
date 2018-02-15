@@ -22,21 +22,21 @@ vector<int> rotate(const vector<int>& v)
 	return result2;
 }
 
-
-
-
-int main() {
-    int n;
-    cin >> n;
-    vector<int> ar(n);
-    for(int ar_i = 0; ar_i < n; ar_i++){
-		int k;
-		cin >> k;
-		ar[ar_i] = --k;
-    }
-    vector<int> result = rotate(ar);
-    for(int i : result)
-		cout << i+ 1<< endl;
-    return 0;
-}
+//
+//
+//
+//int main() {
+//    int n;
+//    cin >> n;
+//    vector<int> ar(n);
+//    for(int ar_i = 0; ar_i < n; ar_i++){
+//		int k;
+//		cin >> k;
+//		ar[ar_i] = --k;
+//    }
+//    vector<int> result = rotate(ar);
+//    for(int i : result)
+//		cout << i+ 1<< endl;
+//    return 0;
+//}
 
