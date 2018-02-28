@@ -114,7 +114,10 @@
     <ClCompile Include="coin_change.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="exam_rush.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server_room_safety.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

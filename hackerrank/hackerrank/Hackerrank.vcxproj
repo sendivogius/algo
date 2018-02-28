@@ -93,7 +93,8 @@
     <ClCompile Include="relay.cpp" />
     <ClCompile Include="road_and_libraries.cpp" />
     <ClCompile Include="save_the_prisoner.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="exam_rush.cpp" />
+    <ClCompile Include="server_room_safety.cpp" />
     <ClCompile Include="subset_component.cpp" />
     <ClCompile Include="taum_and_bday.cpp" />
     <ClCompile Include="the_time_in_words.cpp" />
