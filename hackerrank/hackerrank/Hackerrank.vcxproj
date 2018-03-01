@@ -90,6 +90,7 @@
     <ClCompile Include="permutation_equation.cpp" />
     <ClCompile Include="picking-numbers.cpp" />
     <ClCompile Include="really_special_subtree.cpp" />
+    <ClCompile Include="recursive_sum_digit.cpp" />
     <ClCompile Include="relay.cpp" />
     <ClCompile Include="road_and_libraries.cpp" />
     <ClCompile Include="save_the_prisoner.cpp" />

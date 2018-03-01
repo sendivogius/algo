@@ -120,6 +120,9 @@
     <ClCompile Include="server_room_safety.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="recursive_sum_digit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">
