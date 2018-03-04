@@ -117,3 +117,4 @@ AdjListGraphWeighted fromCin();
 AdjListGraphWeighted fromFile();
 
 AdjListGraphWeighted fromStream(istream& stream);
+

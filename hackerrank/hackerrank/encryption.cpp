@@ -31,3 +31,4 @@ string encrypt(const string& msg)
 //    cout << encrypt(s);
 //    return 0;
 //}
+

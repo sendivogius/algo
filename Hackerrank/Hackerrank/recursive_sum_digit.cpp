@@ -22,6 +22,7 @@ int digitSum(string& s, int k) {
     return sum;
 }
 
+/*
 int main() {
     string n;
     int k;
@@ -30,3 +31,4 @@ int main() {
     cout << result << endl;
     return 0;
 }
+*/

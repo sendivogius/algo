@@ -21,4 +21,3 @@ size_t sos_diff(const string& S)
 //    cout << sos_diff(S);
 //    return 0;
 //}
-

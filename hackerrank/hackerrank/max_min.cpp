@@ -31,4 +31,3 @@ int solveMinMax(vector<int>& s, int k){
 //    return 0;
 //}
 
-

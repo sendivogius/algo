@@ -39,4 +39,3 @@ string to_words(int h, int m)
 //    cout << to_words(h,m);
 //    return 0;
 //}
-

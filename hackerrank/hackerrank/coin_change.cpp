@@ -35,3 +35,4 @@ long getWays(long n, vector<long>& coins){
 //	cout << ways << endl;
 //    return 0;
 //}
+

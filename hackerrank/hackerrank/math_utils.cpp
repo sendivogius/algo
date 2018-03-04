@@ -31,3 +31,4 @@ int lcmv(const vector<int>& v)
 {
 	return std::accumulate(v.begin(), v.end() , 1, lcm);
 }
+

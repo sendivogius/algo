@@ -32,4 +32,3 @@ long examRush(min_queue& minq, int t) {
 //    cout << result << endl;
 //    return 0;
 //}
-

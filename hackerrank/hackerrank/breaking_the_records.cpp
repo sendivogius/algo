@@ -34,4 +34,3 @@ pair<int, int> getRecord(vector <int> scores){
 //	cout << result.first << " " << result.second << endl;
 //    return 0;
 //}
-

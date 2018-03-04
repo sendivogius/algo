@@ -46,3 +46,4 @@ string checkAll(int n, vector<int>& height, vector<int>& position) {
 //    return 0;
 //}
 //
+

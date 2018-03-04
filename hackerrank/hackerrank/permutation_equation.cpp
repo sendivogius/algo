@@ -39,4 +39,3 @@ vector<int> rotate(const vector<int>& v)
 //		cout << i+ 1<< endl;
 //    return 0;
 //}
-

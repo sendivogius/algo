@@ -49,3 +49,4 @@ int getTotalX(const vector<int>& a, const vector<int>& b) {
 //    cout << getTotalX(a, b) << endl;
 //    return 0;
 //}
+
