@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{71424BA3-3168-4A5E-BD12-10F05FF58E11}</ProjectGuid>
+    <RootNamespace>hackerrank</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="array_left_rotation.cpp" />
+    <ClCompile Include="attacking_queen_2.cpp" />
+    <ClCompile Include="beautiful_triplets.cpp" />
+    <ClCompile Include="between_two_sets.cpp" />
+    <ClCompile Include="BFS_shortest_reach.cpp" />
+    <ClCompile Include="birthday_chocolate.cpp" />
+    <ClCompile Include="breaking_the_records.cpp" />
+    <ClCompile Include="caesar_cipher.cpp" />
+    <ClCompile Include="coin_change.cpp" />
+    <ClCompile Include="counter_game.cpp" />
+    <ClCompile Include="counting_valleys.cpp" />
+    <ClCompile Include="day_of_the_programmer.cpp" />
+    <ClCompile Include="dijkstra_shortest _reach.cpp" />
+    <ClCompile Include="electronic_shop.cpp" />
+    <ClCompile Include="encryption.cpp" />
+    <ClCompile Include="game_of_stones.cpp" />
+    <ClCompile Include="matrix_layer_rotation.cpp" />
+    <ClCompile Include="max_min.cpp" />
+    <ClCompile Include="migratory_birds.cpp" />
+    <ClCompile Include="organizing_containers_of_balls.cpp" />
+    <ClCompile Include="Graphs.cpp" />
+    <ClCompile Include="mars_exploration.cpp" />
+    <ClCompile Include="math_utils.cpp" />
+    <ClCompile Include="permutation_equation.cpp" />
+    <ClCompile Include="picking-numbers.cpp" />
+    <ClCompile Include="really_special_subtree.cpp" />
+    <ClCompile Include="recursive_sum_digit.cpp" />
+    <ClCompile Include="relay.cpp" />
+    <ClCompile Include="road_and_libraries.cpp" />
+    <ClCompile Include="save_the_prisoner.cpp" />
+    <ClCompile Include="exam_rush.cpp" />
+    <ClCompile Include="server_room_safety.cpp" />
+    <ClCompile Include="subset_component.cpp" />
+    <ClCompile Include="taum_and_bday.cpp" />
+    <ClCompile Include="the_time_in_words.cpp" />
+    <ClCompile Include="viral_advertising.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="between_two_sets.h" />
+    <ClInclude Include="Graphs.h" />
+    <ClInclude Include="math_utils.h" />
+    <ClInclude Include="utils.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
