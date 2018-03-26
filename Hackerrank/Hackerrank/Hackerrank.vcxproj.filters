@@ -123,6 +123,9 @@
     <ClCompile Include="recursive_sum_digit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cut_board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">

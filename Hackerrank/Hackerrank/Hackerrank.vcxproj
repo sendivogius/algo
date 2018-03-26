@@ -75,6 +75,7 @@
     <ClCompile Include="coin_change.cpp" />
     <ClCompile Include="counter_game.cpp" />
     <ClCompile Include="counting_valleys.cpp" />
+    <ClCompile Include="cut_board.cpp" />
     <ClCompile Include="day_of_the_programmer.cpp" />
     <ClCompile Include="dijkstra_shortest _reach.cpp" />
     <ClCompile Include="electronic_shop.cpp" />
